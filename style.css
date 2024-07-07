@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Philosopher", "Times New Roman", Times, serif;
+  color: black;
+}
+
+body {
+  width: 1440px;
+  margin: 0 auto 0 auto;
+  background-color: aliceblue;
+}
+.menu {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+.menu > .item > a {
+  font-size: 40px;
+  text-transform: uppercase;
+  color: rgb(124, 67, 67);
+}
+.menu {
+  display: flex;
+  text-align: center;
+  gap: 20px;
+}
+
+.logo {
+  width: 100px;
+}
+
+section {
+  margin: 100px auto 100px auto;
+  border: 1px rgb(124, 67, 67) solid;
+  border-radius: 20px;
+  padding: 30px;
+}
+
+section > img {
+  width: 250px;
+  border-radius: 50px;
+}
+
+.footer {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  gap: 30px;
+}
